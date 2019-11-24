@@ -28,8 +28,6 @@ import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 
-import lineageos.providers.LineageSettings;
-
 public class AdbRootPreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
 
@@ -42,7 +40,7 @@ public class AdbRootPreferenceController extends DeveloperOptionsPreferenceContr
             DevelopmentSettingsDashboardFragment fragment) {
         super(context);
 
-        mADBRootService = new ADBRootService(context);
+        mADBRootService = new ADBRootService();
     }
 
     @Override
