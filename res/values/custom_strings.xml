@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="caf_tag">CAF revision</string>
-</resources>
 
+    <string name="theme_customization_system_theme_title">Dark theme mode</string>
+    <string name="theme_customization_clock_Face">Lock screen clock face</string>
+
+    <string name="clock_face_default">Default</string>
+    <string name="clock_face_analog">Analog</string>
+    <string name="clock_face_bubble">Bubble</string>
+    <string name="clock_face_text">Text</string>
+</resources>

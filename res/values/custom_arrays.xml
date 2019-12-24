@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!--String arrays for lock screen clock face -->
+  <string-array name="lock_screen_clock_face_entries">
+      <item>@string/clock_face_default</item>
+      <item>@string/clock_face_analog</item>
+      <item>@string/clock_face_bubble</item>
+      <item>@string/clock_face_text</item>
+  </string-array>
+
+  <string-array translatable="false" name="lock_screen_clock_face_values">
+      <item></item>
+      <item>com.android.keyguard.clock.StretchAnalogClockController</item>
+      <item>com.android.keyguard.clock.BubbleClockController</item>
+      <item>com.android.keyguard.clock.TypeClockController</item>
+  </string-array>
+
+</resources>

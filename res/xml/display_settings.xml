@@ -166,6 +166,14 @@
         <ListPreference
             android:key="android.theme.customization.system_theme"
             android:title="@string/theme_customization_system_theme_title"/>
+        <ListPreference
+            android:key="android.theme.customization.clock_Face"
+            android:title="@string/theme_customization_clock_Face"
+            android:summary="%s"
+            android:entries="@array/lock_screen_clock_face_entries"
+            android:entryValues="@array/lock_screen_clock_face_values"
+            android:defaultValue="0"
+            settings:controller="com.android.settings.display.ClockFacePreferenceController"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
