@@ -11,7 +11,7 @@
 
   <string-array translatable="false" name="lock_screen_clock_face_values">
       <item></item>
-      <item>com.android.keyguard.clock.StretchAnalogClockController</item>
+      <item>com.android.keyguard.clock.AnalogClockController</item>
       <item>com.android.keyguard.clock.BubbleClockController</item>
       <item>com.android.keyguard.clock.TypeClockController</item>
   </string-array>
