@@ -165,7 +165,8 @@
             android:title="@string/theme_customization_icon_shape_title"/>
         <ListPreference
             android:key="android.theme.customization.system_theme"
-            android:title="@string/theme_customization_system_theme_title"/>
+            android:title="@string/theme_customization_system_theme_title"
+            android:dependency="dark_ui_mode"/>
         <ListPreference
             android:key="android.theme.customization.clock_Face"
             android:title="@string/theme_customization_clock_Face"
