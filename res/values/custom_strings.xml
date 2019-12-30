@@ -9,4 +9,8 @@
     <string name="clock_face_analog">Analog</string>
     <string name="clock_face_bubble">Bubble</string>
     <string name="clock_face_text">Text</string>
+    
+    <!-- JUST-CAF Options -->
+    <string name="justcaf_options_title">Just CAF -options</string>
+    <string name="justcaf_options_summary">Device options</string>
 </resources>

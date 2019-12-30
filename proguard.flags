@@ -13,6 +13,8 @@
     *;
 }
 
+-keep class org.justcaf.options.**
+
 -keep class * extends com.android.settings.core.TogglePreferenceController {
     *;
 }

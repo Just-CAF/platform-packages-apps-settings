@@ -3323,6 +3323,18 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.gestures.GlobalActionsPanelSettings" />
         </activity>
+        
+        <activity android:name=".Settings$JustCAFOptionsActivity"
+            android:label="@string/justcaf_options_title"
+            android:icon="@drawable/ic_justcaf"
+            android:parentActivityName="com.android.settings">
+            <intent-filter android:priority="31">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="org.justcaf.options.JustCAFMain" />
+        </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>

@@ -56,6 +56,14 @@
         settings:controller="com.android.settings.fuelgauge.TopLevelBatteryPreferenceController"/>
 
     <Preference
+        android:key="top_level_justcaf_options"
+        android:title="@string/justcaf_options_title"
+        android:summary="@string/justcaf_options_summary"
+        android:icon="@drawable/ic_justcaf"
+        android:order="-85"
+        android:fragment="org.justcaf.options.JustCAFMain"/>
+
+    <Preference
         android:key="top_level_display"
         android:title="@string/display_settings"
         android:summary="@string/summary_placeholder"
