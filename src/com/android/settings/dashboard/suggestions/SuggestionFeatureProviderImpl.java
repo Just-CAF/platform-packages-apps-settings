@@ -72,7 +72,7 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
         } else if (className.equals(ScreenLockSuggestionActivity.class.getName())) {
             return ScreenLockSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(WifiCallingSuggestionActivity.class.getName())) {
-            return WifiCallingSuggestionActivity.isSuggestionComplete(context);
+            return true; // WifiCallingSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(NightDisplaySuggestionActivity.class.getName())) {
             return NightDisplayPreferenceController.isSuggestionComplete(context);
         } else if (className.equals(ZenSuggestionActivity.class.getName())) {
