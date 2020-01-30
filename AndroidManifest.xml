@@ -3322,7 +3322,7 @@
         
         <activity android:name=".Settings$JustCAFOptionsActivity"
             android:label="@string/justcaf_options_title"
-            android:icon="@drawable/ic_justcaf"
+            android:icon="@drawable/ic_justcaf_icon"
             android:parentActivityName="com.android.settings">
             <intent-filter android:priority="31">
                 <action android:name="android.intent.action.MAIN" />

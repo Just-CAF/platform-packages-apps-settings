@@ -59,7 +59,7 @@
         android:key="top_level_justcaf_options"
         android:title="@string/justcaf_options_title"
         android:summary="@string/justcaf_options_summary"
-        android:icon="@drawable/ic_justcaf"
+        android:icon="@drawable/ic_justcaf_icon"
         android:order="-85"
         android:fragment="org.justcaf.options.JustCAFMain"/>
 
