@@ -62,7 +62,7 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     public boolean isSuggestionComplete(Context context, @NonNull ComponentName component) {
         final String className = component.getClassName();
         if (className.equals(WallpaperSuggestionActivity.class.getName())) {
-            return WallpaperSuggestionActivity.isSuggestionComplete(context);
+            return true; //WallpaperSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(StyleSuggestionActivity.class.getName())) {
             return true; // StyleSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(FingerprintSuggestionActivity.class.getName())) {
@@ -74,11 +74,11 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
         } else if (className.equals(WifiCallingSuggestionActivity.class.getName())) {
             return true; // WifiCallingSuggestionActivity.isSuggestionComplete(context);
         } else if (className.equals(NightDisplaySuggestionActivity.class.getName())) {
-            return NightDisplayPreferenceController.isSuggestionComplete(context);
+            return true; //NightDisplayPreferenceController.isSuggestionComplete(context);
         } else if (className.equals(ZenSuggestionActivity.class.getName())) {
-            return ZenOnboardingActivity.isSuggestionComplete(context);
+            return true; //ZenOnboardingActivity.isSuggestionComplete(context);
         }
-        return false;
+        return true;
     }
 
     @Override
