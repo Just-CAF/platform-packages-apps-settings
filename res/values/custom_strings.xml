@@ -5,12 +5,9 @@
     <string name="theme_customization_system_theme_title">Dark theme mode</string>
     <string name="theme_customization_clock_Face">Lock screen clock face</string>
 
-    <string name="clock_face_default">Default</string>
-    <string name="clock_face_analog">Analog</string>
-    <string name="clock_face_bubble">Bubble</string>
-    <string name="clock_face_text">Text</string>
-    
     <!-- JUST-CAF Options -->
     <string name="justcaf_options_title">Just CAF -options</string>
     <string name="justcaf_options_summary">Device options</string>
+
 </resources>
+
