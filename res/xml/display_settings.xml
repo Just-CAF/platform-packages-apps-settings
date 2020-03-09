@@ -46,15 +46,6 @@
         android:fragment="com.android.settings.display.AutoBrightnessSettings"
         settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
 
-    <com.android.settingslib.RestrictedPreference
-        android:key="wallpaper"
-        android:title="@string/wallpaper_settings_title"
-        settings:keywords="@string/keywords_display_wallpaper"
-        settings:useAdminDisabledSummary="true"
-        settings:controller="com.android.settings.display.WallpaperPreferenceController">
-    </com.android.settingslib.RestrictedPreference>
-
-
     <SwitchPreference
         android:key="dark_ui_mode"
         android:title="@string/dark_ui_mode"
@@ -167,6 +158,15 @@
             android:key="android.theme.customization.system_theme"
             android:title="@string/theme_customization_system_theme_title"
             android:dependency="dark_ui_mode"/>
+
+        <com.android.settingslib.RestrictedPreference
+            android:key="wallpaper"
+            android:title="@string/wallpaper_settings_title"
+            settings:keywords="@string/keywords_display_wallpaper"
+            settings:useAdminDisabledSummary="true"
+            settings:controller="com.android.settings.display.WallpaperPreferenceController">
+        </com.android.settingslib.RestrictedPreference>
+
     </PreferenceCategory>
 
 </PreferenceScreen>
