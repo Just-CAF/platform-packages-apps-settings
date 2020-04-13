@@ -86,4 +86,16 @@
         android:order="20"
         settings:controller="com.android.settings.applications.SpecialAppAccessPreferenceController"/>
 
+    <SwitchPreference
+        android:key="enable_calendar"
+        android:title="@string/enable_calendar_title"
+        android:summary="@string/enable_calendar_summary"
+        settings:controller="com.android.settings.applications.DisableCalendarPreferenceController" />
+
+    <SwitchPreference
+        android:key="enable_email"
+        android:title="@string/enable_email_title"
+        android:summary="@string/enable_email_summary"
+        settings:controller="com.android.settings.applications.DisableEmailPreferenceController" />
+
 </PreferenceScreen>

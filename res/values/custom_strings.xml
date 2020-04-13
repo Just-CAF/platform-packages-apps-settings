@@ -9,5 +9,10 @@
     <string name="justcaf_options_title">Just CAF -options</string>
     <string name="justcaf_options_summary">Device options</string>
 
+    <string name="enable_calendar_title">Enable AOSP Calendar app</string>
+    <string name="enable_calendar_summary">Enable the default Android Calendar application</string>
+
+    <string name="enable_email_title">Enable AOSP Email app</string>
+    <string name="enable_email_summary">Enable the default Anroid Email application</string>
 </resources>
 
