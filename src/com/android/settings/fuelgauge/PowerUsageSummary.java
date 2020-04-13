@@ -268,7 +268,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         return R.xml.power_usage_summary;
     }
 
-    @Override
+    /*@Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         if (DEBUG) {
             menu.add(Menu.NONE, MENU_STATS_TYPE, Menu.NONE, R.string.menu_stats_total)
@@ -297,17 +297,17 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 }
                 refreshUi(BatteryUpdateType.MANUAL);
                 return true;
-            case MENU_ADVANCED_BATTERY:
+            /*case MENU_ADVANCED_BATTERY:
                 new SubSettingLauncher(getContext())
                         .setDestination(PowerUsageAdvanced.class.getName())
                         .setSourceMetricsCategory(getMetricsCategory())
                         .setTitleRes(R.string.advanced_battery_title)
                         .launch();
-                return true;
-            default:
+                return true;*/
+    /*        default:
                 return super.onOptionsItemSelected(item);
         }
-    }
+    }*/
 
     protected void refreshUi(@BatteryUpdateType int refreshType) {
         final Context context = getContext();
