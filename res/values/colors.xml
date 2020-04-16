@@ -149,5 +149,5 @@
 
     <color name="face_intro_outline">#ffdadce0</color>
 
-    <color name="caf_green">#00aca3</color>
+    <color name="justcaf_icon_bg">@*android:color/accent_device_default_light</color>
 </resources>
