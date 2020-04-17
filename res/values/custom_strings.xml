@@ -5,6 +5,8 @@
     <string name="theme_customization_system_theme_title">Dark theme mode</string>
     <string name="theme_customization_clock_Face">Lock screen clock face</string>
 
+    <string name="wallpaper_settings_summary">Change clock face, wallpaper, etc.</string>
+
     <!-- JUST-CAF Options -->
     <string name="justcaf_options_title">Just CAF -options</string>
     <string name="justcaf_options_summary">Device options</string>
