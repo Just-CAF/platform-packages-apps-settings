@@ -57,10 +57,10 @@ public class SettingsHomepageActivity extends FragmentActivity {
         final AvatarViewMixin avatarViewMixin = new AvatarViewMixin(this, avatarView);
         getLifecycle().addObserver(avatarViewMixin);
 
-        if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
+        //if (!getSystemService(ActivityManager.class).isLowRamDevice()) {
             // Only allow contextual feature on high ram devices.
-            showFragment(new ContextualCardsFragment(), R.id.contextual_cards_content);
-        }
+        //    showFragment(new ContextualCardsFragment(), R.id.contextual_cards_content);
+        //}
         showFragment(new TopLevelSettings(), R.id.main_content);
         ((FrameLayout) findViewById(R.id.main_content))
                 .getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
